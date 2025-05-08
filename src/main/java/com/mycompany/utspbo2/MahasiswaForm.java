@@ -185,7 +185,6 @@ public class MahasiswaForm extends javax.swing.JFrame {
         String fakultas = edit_fakultas.getText();
         int tahun       = Integer.parseInt(edit_thnMasuk.getText());
 
-        // Bangun objek Mahasiswa dari paket yang sama
         Object[] message = {
             "Detail Biodata:",
             "Nama        : " + nama,
@@ -195,7 +194,6 @@ public class MahasiswaForm extends javax.swing.JFrame {
             "Tahun Masuk : " + tahun
         };
 
-        // Tampilkan dialog
         JOptionPane.showMessageDialog(
             this, message, 
 //            "Detail Biodata:\n" + m.toString(),
